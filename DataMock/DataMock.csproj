@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Generators\BrushGenerator.cs" />
+    <Compile Remove="Generators\CollectionGenerator.cs" />
+    <Compile Remove="Generators\ImageGenerator.cs" />
+    <Compile Remove="Handlers\BrushGeneratorHandler.cs" />
+    <Compile Remove="Handlers\ImageGeneratorHandler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\LoremIpsum.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\LoremIpsum.txt" />
+  </ItemGroup>
+
+</Project>

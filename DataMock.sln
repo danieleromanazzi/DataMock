@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataMock", "DataMock\DataMock.csproj", "{CE67F0B5-B1FA-4468-A93B-EC3788E0EF18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataMock.Console.Demo", "Demo\DataMock.Console.Demo\DataMock.Console.Demo.csproj", "{6C83884C-BF18-43DA-8723-21EA9D4F67E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataMock.Customization.Ini", "DataMock.Customization.Ini\DataMock.Customization.Ini.csproj", "{478F5CE2-876D-4C30-8F11-A9590EFE2955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMock.Wpf", "DataMock.Wpf\DataMock.Wpf.csproj", "{3D5BF015-0570-4EFD-91BA-75C5500CEFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMock.Wpf.Demo", "Demo\DataMock.Wpf.Demo\DataMock.Wpf.Demo.csproj", "{BC6605B5-7506-4712-B274-161D979218DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{AAC4A771-1919-4189-82EB-C6E4669C180D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E8746A8-1210-4AEF-9EFD-064A84EAA17E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE67F0B5-B1FA-4468-A93B-EC3788E0EF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE67F0B5-B1FA-4468-A93B-EC3788E0EF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE67F0B5-B1FA-4468-A93B-EC3788E0EF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE67F0B5-B1FA-4468-A93B-EC3788E0EF18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C83884C-BF18-43DA-8723-21EA9D4F67E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C83884C-BF18-43DA-8723-21EA9D4F67E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C83884C-BF18-43DA-8723-21EA9D4F67E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C83884C-BF18-43DA-8723-21EA9D4F67E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{478F5CE2-876D-4C30-8F11-A9590EFE2955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478F5CE2-876D-4C30-8F11-A9590EFE2955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478F5CE2-876D-4C30-8F11-A9590EFE2955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478F5CE2-876D-4C30-8F11-A9590EFE2955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5BF015-0570-4EFD-91BA-75C5500CEFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5BF015-0570-4EFD-91BA-75C5500CEFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5BF015-0570-4EFD-91BA-75C5500CEFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5BF015-0570-4EFD-91BA-75C5500CEFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6605B5-7506-4712-B274-161D979218DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6605B5-7506-4712-B274-161D979218DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6605B5-7506-4712-B274-161D979218DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6605B5-7506-4712-B274-161D979218DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C83884C-BF18-43DA-8723-21EA9D4F67E6} = {AAC4A771-1919-4189-82EB-C6E4669C180D}
+		{BC6605B5-7506-4712-B274-161D979218DC} = {AAC4A771-1919-4189-82EB-C6E4669C180D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9893AAF3-ED87-4D68-9E7D-7B84BABD1836}
+	EndGlobalSection
+EndGlobal
