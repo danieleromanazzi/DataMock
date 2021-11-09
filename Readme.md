@@ -45,7 +45,7 @@ foreach (var person in persons.Items)
     System.Console.WriteLine("");
 }
 ```
-![See the example in demo application](/Demo/DataMock.Console.Demo/Program.cs)
+[See the example in demo application](/Demo/DataMock.Console.Demo/Program.cs)
 
 ## How to use into WPF application
 
@@ -64,7 +64,7 @@ d:DataContext="{dt:Mock Type={x:Type vm:MainViewModel}, ConfigurationName='DataM
 </Window.DataContext>
 ```
 
-![See the example in demo application](/Demo/DataMock.Wpf.Demo/Views/MainView.xaml)
+[See the example in demo application](/Demo/DataMock.Wpf.Demo/Views/MainView.xaml)
 
 ## How to configure
 Cooming soon
